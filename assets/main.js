@@ -11,6 +11,7 @@ const { createApp } = Vue
      data() {
         return {
             message: 'HELLO WORD',
+            img: 'https://picsum.photos/seed/picsum/200/300'
         }
      },
 
