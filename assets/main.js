@@ -4,3 +4,14 @@ Bonus:
 Aggiungere alla pagina un’immagine, presa anch’essa inserendo 
 il percoso in una propietá dell'oggetto restituito dalla funzione data.*/
 
+const { createApp } = Vue 
+
+ createApp({
+
+     data() {
+        return {
+            message: 'HELLO WORD',
+        }
+     },
+
+ }).mount('#app')
